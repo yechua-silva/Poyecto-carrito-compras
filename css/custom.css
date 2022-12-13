@@ -34,6 +34,7 @@ header {
 ul {
     list-style: none;
 }
+/*Coloco img de fondo */
 #hero {
     background-image: url(../img/hero.jpg);
     height: 350px;
@@ -42,6 +43,7 @@ ul {
 #encabezado {
     margin: 30px 0;
 }
+/*Funcionalidad del carrito, aparacer con el hover*/
 .submenu {
     position: relative;
 }
@@ -70,6 +72,7 @@ ul {
     margin-top: 80px;
     color: white;
 }
+/*Barra de busqueda*/
 .contenido-hero from{
     position: relative;
     margin-bottom: 0;
@@ -88,6 +91,7 @@ ul {
     background-repeat: no-repeat;
     border: none;
 }
+/*Dandole soporte a distintos buscadores*/
 .barra {
     padding: 20px 0;
     background: #741d51; /* Old browsers */
