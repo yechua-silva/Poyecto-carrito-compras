@@ -12,6 +12,7 @@ h2 {
 }
 h4 {
     font-size: 16px;
+    font-weight: 700;
 }
 header {
     padding: 20px 0 0 0 ;
@@ -31,7 +32,7 @@ header {
     color: white;
     font-weight: bold;
 }
-ul {
+ul{
     list-style: none;
 }
 /*Coloco img de fondo */
@@ -73,11 +74,15 @@ ul {
     color: white;
 }
 /*Barra de busqueda*/
-.contenido-hero from{
-    position: relative;
+.contenido-hero form {
+position: relative;
     margin-bottom: 0;
 }
-.contenido-hero from .submit-buscador {
+.contenido-hero form #buscador{
+    height: 50px;
+    margin-bottom: 0;
+}
+.contenido-hero form .submit-buscador {
     position: absolute;
     right: 0;
     top: 0;
